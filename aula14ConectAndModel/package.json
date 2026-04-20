@@ -1,5 +1,5 @@
 {
-  "name": "aula13expressmiddlewares",
+  "name": "aula14ConectAndModel",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -15,8 +15,10 @@
   "dependencies": {
     "core-js": "^3.48.0",
     "css-loader": "^7.1.4",
+    "dotenv": "^17.4.2",
     "ejs": "^5.0.1",
     "express": "^5.2.1",
+    "mongoose": "^9.5.0",
     "regenerator-runtime": "^0.14.1",
     "style-loader": "^4.0.0"
   },
