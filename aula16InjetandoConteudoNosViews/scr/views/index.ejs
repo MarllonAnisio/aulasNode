@@ -1,0 +1,13 @@
+<%-include('./includes/head.ejs')%>
+
+    <section class="conteiner">
+        <h1>aula 13
+            <%= titulo %>
+        </h1>
+        <ul>
+            <% numeros.forEach(numero => { %>
+                <li><%= numero %></li>
+            <% }) %>
+    </section>
+
+<%-include('./includes/footer.ejs')%>

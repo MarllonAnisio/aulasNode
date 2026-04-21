@@ -1,0 +1,7 @@
+<% %> isso serve para controle de fluxo, (if,loops, while)
+
+<%= %> imprime ecapando caracteres
+<%- %> imprime sem escape de caracteres
+<%# comentario %>
+
+<%- include("CAMINHO/DO/ARQUIVO"); %>
