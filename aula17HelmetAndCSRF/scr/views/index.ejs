@@ -1,0 +1,12 @@
+<%-include('./includes/head.ejs')%>
+
+    <section class="conteiner">
+        <h1>aula17</h1>
+        <form action="/" method="post">
+            <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+            <input type="text" name="nome" placeholder="Digite seu nome">
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+<%-include('./includes/footer.ejs')%>
